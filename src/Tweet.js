@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
 
-function Tweet() {
+function Tweet(props) {
   return (
     <div className="tweet">
-      <h3>Name</h3>
-      <p>This is Random Tweet</p>
+      <h3>{props.name}</h3>
+      <p>{props.message}</p>
       <h5>Number of Likes</h5>
     </div>
   );
