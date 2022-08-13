@@ -6,6 +6,7 @@ function Hello() {
   };
   return (
     <div>
+      <h3>This is the Hello Component</h3>
       <button onClick={sayHello}>Say Hello</button>
     </div>
   );
