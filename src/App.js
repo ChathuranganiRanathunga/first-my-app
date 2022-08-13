@@ -1,13 +1,14 @@
 import "./App.css";
 import React from "react";
-import "./";
+import Hello from "./sayHello";
 
 function App() {
-    return ( 
-        <div className = "App" >
-        <h1> My First React App.Hello!! </h1> 
-        </div>
-    );
+  return (
+    <div>
+      <h1>This is the App Component that I first Create</h1>
+      <Hello />
+    </div>
+  );
 }
 
 export default App;
